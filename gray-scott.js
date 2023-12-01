@@ -208,7 +208,7 @@ function swapBuffers() {
     context.bindTexture(context.TEXTURE_2D, texA);
     context.uniform1i(texloc, 0);
   }
-  //
+  ///
 }
 
 function setupfBuffer(tex) {
