@@ -7,7 +7,7 @@
 <style>
 html, body {
 	margin: 0; padding: 0;
-	background-color: #3E0000;
+	background-color: #2A0000;
 	color: #8CAB00;
 
 	font-family: 'open sans', sans-serif;
@@ -102,7 +102,7 @@ void main(){
 </script>
 
 <script id = "fragsource2" type = "notjs">
-// pretty things
+// apper
 
 precision highp float;
 
@@ -121,7 +121,7 @@ void main(){
 
 	vec3 origc = texture2D(tex, uv).rgb;
 
-	float h = 0.80-origc.g*1.0;
+	float h = 0.4-origc.g*1.0;
 	float s = 1.0;
 	float v = origc.g/(origc.r+origc.g);
 
