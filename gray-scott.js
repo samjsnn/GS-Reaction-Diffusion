@@ -219,7 +219,7 @@ function setupfBuffer(tex) {
     context.COLOR_ATTACHMENT0,
     context.TEXTURE_2D,
     tex,
-    //
+
     0
   );
   context.bindFramebuffer(context.FRAMEBUFFER, null);
